@@ -1,13 +1,12 @@
+import { Link } from "react-router-dom";
+
 const DonationCard = ({ donation }) => {
-	const { image, category, title, color } = donation || {};
+	const { id, image, category, title, color } = donation || {};
 	const { card_bg_color, category_bg_color, text_color } = color || {};
 
 	const cardBgStyle = {
 		backgroundColor: card_bg_color,
 	};
-
-	console.log(category_bg_color);
-
 	const categoryBgStyle = {
 		backgroundColor: category_bg_color,
 	};
@@ -16,10 +15,8 @@ const DonationCard = ({ donation }) => {
 		color: text_color,
 	};
 
-	console.log(cardBgStyle);
-
 	return (
-		<div>
+		<Link to={`/donate/${id}`} className="cursor-pointer">
 			<div
 				className="flex flex-col h-full rounded-lg text-gray-700 shadow-md"
 				style={cardBgStyle}
@@ -50,7 +47,7 @@ const DonationCard = ({ donation }) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</Link>
 	);
 };
 

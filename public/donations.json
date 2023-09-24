@@ -1,7 +1,7 @@
 [
 	{
 		"id": 2,
-		"image": "https://i.ibb.co/ZL1zFcZ/Health.png",
+		"image": "https://i.ibb.co/n3W4M9g/boxed-water-is-better-VPkkplpa-LLI-unsplash.jpg",
 		"category": "Health",
 		"title": "Clean Water For Children",
 		"color": {
@@ -10,13 +10,13 @@
 			"text_color": "#005aff",
 			"btn_bg_color": "#005aff"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Health is a state of overall physical, mental, and social well-being, and it is considered one of the most valuable assets in life. It encompasses not just the absence of diseases or illnesses but also the presence of positive attributes like vitality, fitness, and a high quality of life. Health is a multifaceted concept that encompasses various dimensions, and maintaining good health is essential for a fulfilling and productive life.",
 		"donate_ammount": 290
 	},
 
 	{
 		"id": 11,
-		"image": "https://i.ibb.co/DbNV8hG/Food.png",
+		"image": "https://i.ibb.co/Y2TZ0kt/lily-banse-YHSwy6uqvk-unsplash.jpg",
 		"category": "Food",
 		"title": "Better Food For Everyone",
 		"color": {
@@ -25,12 +25,12 @@
 			"text_color": "#ff3d09",
 			"btn_bg_color": "#ff3d09"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Food is a fundamental and essential aspect of human life. It sustains us, nourishes our bodies, and provides us with energy to carry out our daily activities. Beyond its physiological importance, food also holds cultural, social, and economic significance.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 4,
-		"image": "https://i.ibb.co/0X8JtKt/Education.png",
+		"image": "https://i.ibb.co/SrxvmDk/vasily-koloda-8-Cq-Dv-Puo-k-I-unsplash.jpg",
 		"category": "Education",
 		"title": "Good Education",
 		"color": {
@@ -39,12 +39,12 @@
 			"text_color": "#58b812",
 			"btn_bg_color": "#58b812"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Education is a fundamental pillar of human development and progress. It is a lifelong process that involves acquiring knowledge, skills, values, and attitudes through various formal and informal channels. Education empowers individuals, enriches lives, and plays a pivotal role in shaping societies and fostering personal and collective growth.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 8,
-		"image": "https://i.ibb.co/m0hHNc2/Clothing.png",
+		"image": "https://i.ibb.co/ZVvpM2F/parker-burchfield-tv-G4-Wvjgs-EY-unsplash.jpg",
 		"category": "Clothing",
 		"title": "Used Clothing Drive",
 		"color": {
@@ -53,12 +53,12 @@
 			"text_color": "#16a34a",
 			"btn_bg_color": "#16a34a"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Clothing is an integral aspect of human culture and identity. It goes beyond mere necessity and serves a variety of functions, ranging from protection and modesty to self-expression and fashion. Clothing has evolved over the centuries, reflecting changes in society, technology, and individual preferences.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 1,
-		"image": "https://i.ibb.co/ZL1zFcZ/Health.png",
+		"image": "https://i.ibb.co/8dkXNn1/emma-simpson-m-NGaa-Le-WEp0-unsplash.jpg",
 		"category": "Health",
 		"title": "Clean Water For Children",
 		"color": {
@@ -67,12 +67,12 @@
 			"text_color": "#005aff",
 			"btn_bg_color": "#005aff"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Mental health is equally important as physical health. It involves emotional well-being, cognitive functioning, and the ability to cope with stress and life's challenges. Mental health conditions like anxiety and depression can significantly impact a person's life, highlighting the importance of mental health care and support.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 5,
-		"image": "https://i.ibb.co/0X8JtKt/Education.png",
+		"image": "https://i.ibb.co/4F0YNvW/md-duran-1-Vq-HRwxc-CCw-unsplash.jpg",
 		"category": "Education",
 		"title": "Good Education",
 		"color": {
@@ -81,12 +81,12 @@
 			"text_color": "#58b812",
 			"btn_bg_color": "#58b812"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Education can be categorized into formal and informal types. Formal education typically takes place in structured settings such as schools, colleges, and universities, where a standardized curriculum is followed. Informal education occurs through daily life experiences, interactions with others, and self-directed learning.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 9,
-		"image": "https://i.ibb.co/m0hHNc2/Clothing.png",
+		"image": "https://i.ibb.co/Nn3zBJb/keagan-henman-Won79-9o-UEk-unsplash.jpg",
 		"category": "Clothing",
 		"title": "Used Clothing Drive",
 		"color": {
@@ -95,12 +95,12 @@
 			"text_color": "#e11d48",
 			"btn_bg_color": "#e11d48"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "The fashion industry encompasses a wide range of activities, from design and manufacturing to marketing and retail. It is a global, multibillion-dollar industry that influences trends and styles worldwide. Fashion designers and brands play a significant role in shaping the clothing choices of consumers.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 6,
-		"image": "https://i.ibb.co/0X8JtKt/Education.png",
+		"image": "https://i.ibb.co/DzN5DDC/brooke-cagle-g1-Kr4-Ozfoac-unsplash.jpg",
 		"category": "Education",
 		"title": "Good Education",
 		"color": {
@@ -109,12 +109,12 @@
 			"text_color": "#58b812",
 			"btn_bg_color": "#58b812"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Technology has revolutionized education, providing new tools and methods for teaching and learning. Online courses, e-learning platforms, and digital resources have expanded access to education and made learning more flexible.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 7,
-		"image": "https://i.ibb.co/m0hHNc2/Clothing.png",
+		"image": "https://i.ibb.co/CWzt0sp/lan-deng-quddu-d-ZKk-Q-unsplash.jpg",
 		"category": "Clothing",
 		"title": "Used Clothing Drive",
 		"color": {
@@ -123,13 +123,13 @@
 			"text_color": "#e11d48",
 			"btn_bg_color": "#e11d48"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "With growing environmental awareness, there is a movement toward sustainable and ethical fashion. Consumers are increasingly seeking clothing made from eco-friendly materials, manufactured under fair labor conditions, and designed for durability to reduce the environmental impact of fast fashion.",
 		"donate_ammount": 290
 	},
 
 	{
 		"id": 10,
-		"image": "https://i.ibb.co/DbNV8hG/Food.png",
+		"image": "https://i.ibb.co/ZWVqx24/dan-gold-4-jh-DO54-BYg-unsplash.jpg",
 		"category": "Food",
 		"title": "Better Food For Everyone",
 		"color": {
@@ -138,12 +138,12 @@
 			"text_color": "#ff3d09",
 			"btn_bg_color": "#ff3d09"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Food is deeply intertwined with culture and traditions. Different regions and communities have unique cuisines, culinary techniques, and food rituals. Traditional dishes often carry historical, religious, and symbolic meanings, and they play a central role in celebrations and ceremonies.",
 		"donate_ammount": 290
 	},
 	{
 		"id": 3,
-		"image": "https://i.ibb.co/ZL1zFcZ/Health.png",
+		"image": "https://i.ibb.co/MhyPgxs/jonathan-borba-lr-QPTQs7n-QQ-unsplash.jpg",
 		"category": "Health",
 		"title": "Clean Water For Children",
 		"color": {
@@ -152,13 +152,13 @@
 			"text_color": "#005aff",
 			"btn_bg_color": "#005aff"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Understanding health-related information and making informed decisions about one's health is a critical skill. Health education and health literacy empower individuals to take control of their well-being.",
 		"donate_ammount": 290
 	},
 
 	{
 		"id": 12,
-		"image": "https://i.ibb.co/DbNV8hG/Food.png",
+		"image": "https://i.ibb.co/JCwPxMG/brooke-lark-Hl-Ncigv-Ui4-Q-unsplash.jpg",
 		"category": "Food",
 		"title": "Better Food For Everyone",
 		"color": {
@@ -167,7 +167,7 @@
 			"text_color": "#ff3d09",
 			"btn_bg_color": "#ff3d09"
 		},
-		"description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+		"description": "Culinary arts elevate food to the level of artistry. Talented chefs create visually stunning and gastronomically delightful dishes that engage all the senses. Fine dining experiences often incorporate creativity and innovation.",
 		"donate_ammount": 290
 	}
 ]
