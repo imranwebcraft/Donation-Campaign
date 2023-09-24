@@ -1,20 +1,53 @@
 const DonationCard = ({ donation }) => {
-	const { image, category, title, color } = donation;
-	const { card_bg_color, category_bg_color, text_color } = color;
+	const { image, category, title, color } = donation || {};
+	const { card_bg_color, category_bg_color, text_color } = color || {};
+
+	const cardBgStyle = {
+		backgroundColor: card_bg_color,
+	};
+
+	console.log(category_bg_color);
+
+	const categoryBgStyle = {
+		backgroundColor: category_bg_color,
+	};
+
+	const textColorStyle = {
+		color: text_color,
+	};
+
+	console.log(cardBgStyle);
 
 	return (
 		<div>
-			<div className="relative flex flex-col h-full rounded-lg bg-white bg-clip-border text-gray-700 shadow-md">
-				<div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
-					<img src={image} alt="ui/ux review check" />
+			<div
+				className="flex flex-col h-full rounded-lg text-gray-700 shadow-md"
+				style={cardBgStyle}
+			>
+				<div className={` ${category_bg_color} `}>
+					<img src={image} alt={category} />
 				</div>
-				<div className="p-6 mt-auto">
-					<p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">
-						{category}
-					</p>
-					<h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-						{title}
-					</h4>
+				<div className="p-6">
+					<div
+						style={categoryBgStyle}
+						className=" px-3 py-2 inline-block rounded-md"
+					>
+						<p
+							style={textColorStyle}
+							className="text-sm font-semibold"
+						>
+							{category}
+						</p>
+					</div>
+
+					<div className=" mt-2">
+						<h4
+							className="text-xl  font-semibold"
+							style={textColorStyle}
+						>
+							{title}
+						</h4>
+					</div>
 				</div>
 			</div>
 		</div>
