@@ -23,6 +23,13 @@ const Donations = ({ searchText }) => {
 
 	return (
 		<div className=" max-w-7xl mx-auto mb-48">
+			{searchDonation.length === 0 && (
+				<div className=" flex gap-5 flex-col text-center justify-center items-center">
+					<h1 className=" text-2xl font-semibold">
+						Please type category name correctly&#128533;&#128533;
+					</h1>
+				</div>
+			)}
 			<div className=" grid gap-5 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
 				{searchDonation?.map((donation) => (
 					<DonationCard
