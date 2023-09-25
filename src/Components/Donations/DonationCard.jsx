@@ -15,8 +15,6 @@ const DonationCard = ({ donation }) => {
 		color: text_color,
 	};
 
-	console.log(title);
-
 	return (
 		<Link to={`/donate/${id}`} state={title} className="cursor-pointer">
 			<div

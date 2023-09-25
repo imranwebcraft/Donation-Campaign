@@ -48,10 +48,10 @@
 		"category": "Clothing",
 		"title": "Used Clothing Drive",
 		"color": {
-			"card_bg_color": "#dcfce7",
-			"category_bg_color": "#86efac",
-			"text_color": "#16a34a",
-			"btn_bg_color": "#16a34a"
+			"card_bg_color": "#ffe4e6",
+			"category_bg_color": "#fda4af",
+			"text_color": "#e11d48",
+			"btn_bg_color": "#e11d48"
 		},
 		"description": "Clothing is an integral aspect of human culture and identity. It goes beyond mere necessity and serves a variety of functions, ranging from protection and modesty to self-expression and fashion. Clothing has evolved over the centuries, reflecting changes in society, technology, and individual preferences.",
 		"donate_ammount": 290
