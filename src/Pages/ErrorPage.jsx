@@ -4,10 +4,9 @@ const ErrorPage = () => {
 	return (
 		<div>
 			<div className="h-screen w-screen  flex container mx-auto items-center">
-				<div className="flex flex-col md:flex-row items-center justify-between px-5 text-gray-700">
-					<div className="w-full lg:w-1/2 mx-8">
+				<div className="flex flex-col  md:flex-row items-center justify-between px-5 text-gray-700">
+					<div className="w-full lg:w-1/2 mx-8 text-center md:text-left">
 						<div className="text-7xl text-indigo-500 font-dark font-extrabold mb-8">
-							{" "}
 							404
 						</div>
 						<p className="text-2xl md:text-3xl font-light leading-normal mb-8">
