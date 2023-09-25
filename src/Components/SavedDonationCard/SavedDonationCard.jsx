@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
+
 const SavedDonationCard = ({ donation }) => {
-	const { image, category, title, color, donate_ammount } = donation || {};
+	const { id, image, category, title, color, donate_ammount } =
+		donation || {};
 	const { card_bg_color, category_bg_color, text_color } = color || {};
 
 	const cardBgStyle = {
@@ -61,14 +64,15 @@ const SavedDonationCard = ({ donation }) => {
 					</div>
 
 					{/* View Details Btn */}
-					<div
+					<Link
+						to={`/donate/${id}`}
 						style={viewDetailsBg}
 						className="inline-block rounded-md mt-5"
 					>
 						<button className="px-4 rounded-md py-3 text-center text-white">
 							View Details
 						</button>
-					</div>
+					</Link>
 				</div>
 			</div>
 		</div>
