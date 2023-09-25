@@ -57,7 +57,7 @@ const Donation = () => {
 					{seeAll || (
 						<button
 							onClick={() => setSeeAll(!seeAll)}
-							className="bg-indigo-500 px-4 py-3 text-white font-semibold rounded hover:bg-indigo-400 duration-300"
+							className="bg-rose-500 px-4 py-3 text-white font-semibold rounded hover:bg-rose-600 duration-300"
 						>
 							See All
 						</button>

@@ -6,7 +6,7 @@ const ErrorPage = () => {
 			<div className="h-screen w-screen  flex container mx-auto items-center">
 				<div className="flex flex-col  md:flex-row items-center justify-between px-5 text-gray-700">
 					<div className="w-full lg:w-1/2 mx-8 text-center md:text-left">
-						<div className="text-7xl text-indigo-500 font-dark font-extrabold mb-8">
+						<div className="text-7xl text-rose-500 font-dark font-extrabold mb-8">
 							404
 						</div>
 						<p className="text-2xl md:text-3xl font-light leading-normal mb-8">
@@ -16,7 +16,7 @@ const ErrorPage = () => {
 
 						<Link
 							to={"/"}
-							className="px-5 inline py-3 text-sm font-medium leading-5 shadow-2xl text-white transition-all duration-400 border border-transparent rounded-lg focus:outline-none bg-indigo-500 hover:bg-indigo-400"
+							className="px-5 inline py-3 text-sm font-medium leading-5 shadow-2xl text-white transition-all duration-400 border border-transparent rounded-lg focus:outline-none bg-rose-500 hover:bg-rose-600"
 						>
 							Back To Homepage
 						</Link>

@@ -22,7 +22,7 @@ const Banner = ({ handleSubmit }) => {
 					<input
 						type="submit"
 						value="Search"
-						className="bg-rose-500 hover:bg-rose-600 text-white px-4 py-2 rounded-r-md transition duration-300 cursor-pointer"
+						className="bg-rose-500 hover:bg-rose-600 text-white px-4 py-[9px] rounded-r-md transition duration-300 cursor-pointer"
 					/>
 				</form>
 			</div>
