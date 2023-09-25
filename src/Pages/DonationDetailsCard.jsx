@@ -1,9 +1,48 @@
+import Swal from "sweetalert2";
+
 const DonationDetailsCard = ({ donation }) => {
-	const { image, donate_ammount, description, title, color } = donation || {};
+	const { id, image, donate_ammount, description, title, color } =
+		donation || {};
 	const { text_color } = color || {};
 
 	const textColorStyle = {
 		backgroundColor: text_color,
+	};
+
+	const handleDonaet = () => {
+		const donationArray = [];
+
+		const getSavedItems = JSON.parse(localStorage.getItem("donations"));
+		if (!getSavedItems) {
+			donationArray.push(donation);
+			localStorage.setItem("donations", JSON.stringify(donationArray));
+			Swal.fire({
+				icon: "success",
+				title: "Donation Successful",
+				text: "Thank you for your donation!",
+			});
+		} else {
+			const findDuplicate = getSavedItems.find((item) => item.id === id);
+			if (!findDuplicate) {
+				donationArray.push(...getSavedItems, donation);
+				localStorage.setItem(
+					"donations",
+					JSON.stringify(donationArray),
+				);
+
+				Swal.fire({
+					icon: "success",
+					title: "Donation Successful",
+					text: "Thank you for your donation!",
+				});
+			} else {
+				Swal.fire({
+					icon: "error",
+					title: "Already Donate",
+					text: "Thank you for your donation!",
+				});
+			}
+		}
 	};
 
 	return (
@@ -14,9 +53,9 @@ const DonationDetailsCard = ({ donation }) => {
 			{/* Oerlay Div */}
 			<div className=" bg-[#0B0B0B80] -mt-[80px] h-20 rounded-b-lg"></div>
 			{/* Btn Div */}
-
 			<div className=" -mt-[62px]">
 				<button
+					onClick={handleDonaet}
 					style={textColorStyle}
 					className="inline-block ml-5 px-4 rounded-md py-3 text-center text-white"
 				>
