@@ -9,10 +9,10 @@ import {
 } from "recharts";
 
 const Statistics = () => {
-	const [userDonation, setUserDonation] = useState();
+	const [userDonation, setUserDonation] = useState([]);
 
 	const totalDonations = 12;
-	const yourDonations = userDonation;
+	const yourDonations = isNaN(userDonation) ? 0 : userDonation;
 
 	useEffect(() => {
 		const savedDonations = JSON.parse(localStorage.getItem("donations"));
