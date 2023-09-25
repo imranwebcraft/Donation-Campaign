@@ -1,6 +1,4 @@
 const DonationDetailsCard = ({ donation }) => {
-	console.log(donation);
-
 	const { image, donate_ammount, description, title, color } = donation || {};
 	const { text_color } = color || {};
 
@@ -20,7 +18,7 @@ const DonationDetailsCard = ({ donation }) => {
 			<div className=" -mt-[62px]">
 				<button
 					style={textColorStyle}
-					className="inline-block ml-5 px-2 rounded-md py-3 text-center text-white"
+					className="inline-block ml-5 px-4 rounded-md py-3 text-center text-white"
 				>
 					Donate $ {donate_ammount}
 				</button>

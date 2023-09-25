@@ -4,7 +4,7 @@ const Banner = () => {
 	return (
 		<div className="w-full relative">
 			<div className="bg h-[70vh] w-full"></div>
-			<div className=" flex flex-col items-center absolute  left-[8%] md:left-[20%] top-[35%] lg:left-[30%]">
+			<div className="flex flex-col items-center justify-center relative -top-[380px]">
 				<h1 className="text-2xl md:text-3xl lg:text-5xl font-medium text-center">
 					I Grow By Helping People In Need
 				</h1>
