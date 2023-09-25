@@ -15,8 +15,10 @@ const DonationCard = ({ donation }) => {
 		color: text_color,
 	};
 
+	console.log(title);
+
 	return (
-		<Link to={`/donate/${id}`} className="cursor-pointer">
+		<Link to={`/donate/${id}`} state={title} className="cursor-pointer">
 			<div
 				className="flex flex-col h-full rounded-lg text-gray-700 shadow-md"
 				style={cardBgStyle}
