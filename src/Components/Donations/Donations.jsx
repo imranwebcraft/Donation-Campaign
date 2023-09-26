@@ -22,7 +22,7 @@ const Donations = ({ searchText }) => {
 	}, [donations, searchText]);
 
 	return (
-		<div className=" max-w-7xl mx-auto mb-48">
+		<div className=" max-w-7xl mx-auto mb-48 mt-28">
 			{searchDonation.length === 0 && (
 				<div className=" flex gap-5 flex-col text-center justify-center items-center">
 					<h1 className=" text-2xl font-semibold">

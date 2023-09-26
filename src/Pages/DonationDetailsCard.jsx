@@ -47,9 +47,13 @@ const DonationDetailsCard = ({ donation }) => {
 
 	return (
 		<div className="card min-h-[80vh] card-compact">
-			<figure>
-				<img className=" w-full rounded-lg" src={image} alt="image" />
-			</figure>
+			<div>
+				<img
+					className=" w-full h-[600px] rounded-lg"
+					src={image}
+					alt="image"
+				/>
+			</div>
 			{/* Oerlay Div */}
 			<div className=" bg-[#0B0B0B80] -mt-[80px] h-20 rounded-b-lg"></div>
 			{/* Btn Div */}
@@ -57,7 +61,7 @@ const DonationDetailsCard = ({ donation }) => {
 				<button
 					onClick={handleDonaet}
 					style={textColorStyle}
-					className="inline-block ml-5 px-4 rounded-md py-3 text-center text-white"
+					className="inline-block ml-5 px-4 rounded py-3 text-center text-white"
 				>
 					Donate $ {donate_ammount}
 				</button>

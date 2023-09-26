@@ -20,7 +20,7 @@ const MainLayout = () => {
 	}, [location.pathname, location.state]);
 
 	return (
-		<div className=" px-3 tracking-wide leading-tight">
+		<div className="px-3 lg:px-0 tracking-wide leading-tight">
 			<Navbar></Navbar>
 			<Outlet></Outlet>
 		</div>

@@ -18,11 +18,15 @@ const DonationCard = ({ donation }) => {
 	return (
 		<Link to={`/donate/${id}`} state={title} className="cursor-pointer">
 			<div
-				className="flex flex-col h-full rounded-lg text-gray-700 shadow-md"
+				className="flex flex-col h-full rounded-lg text-gray-700 shadow-sm"
 				style={cardBgStyle}
 			>
-				<div className={` ${category_bg_color} `}>
-					<img src={image} alt={category} />
+				<div>
+					<img
+						className=" rounded-lg rounded-b-none"
+						src={image}
+						alt={category}
+					/>
 				</div>
 				<div className="p-6">
 					<div

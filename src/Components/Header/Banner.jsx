@@ -4,7 +4,7 @@ const Banner = ({ handleSubmit }) => {
 	return (
 		<div className="w-full relative">
 			<div className="bg h-[70vh] w-full"></div>
-			<div className="flex flex-col items-center justify-center relative -top-[380px]">
+			<div className="flex flex-col items-center justify-center absolute top-[35%] left-[15%] right-[15%]">
 				<h1 className="text-2xl md:text-3xl lg:text-5xl font-medium text-center">
 					I Grow By Helping People In Need
 				</h1>
