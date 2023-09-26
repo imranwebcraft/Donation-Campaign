@@ -22,12 +22,39 @@ const Statistics = () => {
 	const data = [
 		{
 			name: "Total Donation",
-			value: totalDonations,
+			value: totalDonations - yourDonations,
 		},
 		{ name: "User Donation", value: yourDonations },
 	];
 
 	const COLORS = ["#FF444A", "#00C49F"];
+
+	const RADIAN = Math.PI / 180;
+
+	const renderCustomizedLabel = ({
+		cx,
+		cy,
+		midAngle,
+		innerRadius,
+		outerRadius,
+		percent,
+	}) => {
+		const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+		const x = cx + radius * Math.cos(-midAngle * RADIAN);
+		const y = cy + radius * Math.sin(-midAngle * RADIAN);
+
+		return (
+			<text
+				x={x}
+				y={y}
+				fill="white"
+				textAnchor={x > cx ? "start" : "end"}
+				dominantBaseline="central"
+			>
+				{`${(percent * 100).toFixed(1)}%`}
+			</text>
+		);
+	};
 
 	return (
 		<div className="h-[70vh] flex justify-center items-center my-10">
@@ -38,13 +65,9 @@ const Statistics = () => {
 						dataKey="value"
 						nameKey="name"
 						outerRadius={100}
+						labelLine={false}
 						fill="#8884d8"
-						label={({ name, value }) =>
-							`${name} (${(
-								(value / totalDonations) *
-								100
-							).toFixed(1)}%)`
-						}
+						label={renderCustomizedLabel}
 					>
 						{data.map((entry, index) => (
 							<Cell

@@ -30,7 +30,11 @@ const Donation = () => {
 							alt="no data found logo"
 						/>
 					</div>
-					<p className=" text-2xl font-semibold">{noDonationFound}</p>
+					<div className=" text-center">
+						<p className=" text-2xl font-semibold">
+							{noDonationFound}
+						</p>
+					</div>
 				</div>
 			)}
 
